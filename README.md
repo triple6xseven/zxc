@@ -84,6 +84,14 @@ Bind network effects to a keyboard or mouse button. Use a toggle, apply effects 
 
 
 
+## Tested behavior
+
+In a local UDP test with WinDivert, a configured 120 ms delay produced a measured median of 121.47 ms. After the effect stopped, the median returned to 0.01 ms. In a separate packet-loss test, all eight test packets were intentionally dropped with no send errors.
+
+The packet inspector also handled 180,400 synthetic packets in a 30-second stress test with zero input-buffer drops. It retained about 614 KiB of packet data at the end of the run.
+
+The stress test used synthetic input. It did not measure capture throughput on a physical network adapter, CPU load, or total application memory.
+
 ## Feedback and support
 
 Use [Issues](https://github.com/triple6xseven/zxc/issues) for reproducible bugs and [Discussions](https://github.com/triple6xseven/zxc/discussions) for questions and ideas. When reporting a bug, include the version, the steps to reproduce it, and what you expected. Remove private addresses and payloads before sharing a capture.
