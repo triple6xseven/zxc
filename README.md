@@ -6,6 +6,35 @@ ZxcLagLab is a Windows network testing tool. It lets you see what happens when a
 
 ![UDP packet copy editor in the Pixel Terminal theme, over a packet capture](pixel-udp-editor.png)
 
+<details>
+<summary>More screenshots</summary>
+
+**Packet inspector in Pixel Terminal**
+
+![Packet inspector with captured traffic](pixel-packets.png)
+
+**Dashboard**
+
+![Dashboard showing target, preset, and start controls](dashboard.png)
+
+**Scenarios and comparison**
+
+![Timed scenario phases in the Hacker theme](hacker.png)
+
+![Two scenario runs aligned on the same timeline](comparison-same.png)
+
+**Connections and packet details**
+
+![Connections with a selected TCP loopback flow](connections.png)
+
+![TCP header details and original packet bytes](packets.png)
+
+**Hotkeys**
+
+![Hotkey, hold mode, and timed auto-off controls](hotkey.png)
+
+</details>
+
 ## Get started
 
 1. Download the portable ZIP from the release page, extract the whole archive, and run `zxcLagLab.exe`.
@@ -53,34 +82,7 @@ Switch themes, choose an interface font and text size, or add your own wallpaper
 
 Bind network effects to a keyboard or mouse button. Use a toggle, apply effects only while held, or set a timed pulse. The overlay also has its own configurable shortcut.
 
-<details>
-<summary>More screenshots</summary>
 
-**Packet inspector in Pixel Terminal**
-
-![Packet inspector with captured traffic](pixel-packets.png)
-
-**Dashboard**
-
-![Dashboard showing target, preset, and start controls](dashboard.png)
-
-**Scenarios and comparison**
-
-![Timed scenario phases in the Hacker theme](hacker.png)
-
-![Two scenario runs aligned on the same timeline](comparison-same.png)
-
-**Connections and packet details**
-
-![Connections with a selected TCP loopback flow](connections.png)
-
-![TCP header details and original packet bytes](packets.png)
-
-**Hotkeys**
-
-![Hotkey, hold mode, and timed auto-off controls](hotkey.png)
-
-</details>
 
 ## Feedback and support
 
