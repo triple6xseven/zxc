@@ -4,7 +4,7 @@ ZxcLagLab is a Windows network testing tool. It lets you see what happens when a
 
 **[Download the free Windows x64 beta](https://github.com/triple6xseven/zxc/releases/tag/v2.2.0-preview.34)** · **[Report a bug](https://github.com/triple6xseven/zxc/issues)** · **[Join the discussion](https://github.com/triple6xseven/zxc/discussions)**
 
-![ZxcLagLab Dashboard with target, preset, and start controls](dashboard.png)
+![UDP packet copy editor in the Pixel Terminal theme, over a packet capture](pixel-udp-editor.png)
 
 ## Get started
 
@@ -26,14 +26,6 @@ Build a timeline with phases such as **Baseline → Degradation → Recovery**. 
 
 After two runs, open **Scenarios → Run history** and choose a baseline and a follow-up. Graphs share the same time axis, starting at scenario launch. LagLab shows which test conditions changed and shows missing measurements as gaps. From a saved event you can inspect nearby retained packets and export the interval to PCAPNG when available.
 
-<details>
-<summary>Scenario editor and comparison screenshots</summary>
-
-![Timed scenario phases and effect graphs in the Hacker theme](hacker.png)
-
-![Two scenario runs aligned on the same timeline](comparison-same.png)
-
-</details>
 
 ## Connections and packet capture
 
@@ -41,14 +33,6 @@ After two runs, open **Scenarios → Run history** and choose a baseline and a f
 
 **Packets** shows addresses, ports, decoded headers, and the original bytes in hex and ASCII. It can also decode supported DNS, mDNS, ICMP, and ICMPv6 packets. Save retained packets as PCAPNG for another analyzer, or export table data to CSV. Capture history is bounded, so older packets may be evicted.
 
-<details>
-<summary>Connections and packet inspector screenshots</summary>
-
-![Connections with a selected TCP loopback flow](connections.png)
-
-![Packet inspector showing decoded TCP headers and the original bytes](packets.png)
-
-</details>
 
 ## Packet copies and the local stream editor
 
@@ -62,8 +46,37 @@ Use **Ping** and **Statistics** to check network RTT, jitter, loss, and how long
 
 The optional overlay puts selected graphs and controls above other windows. Move it, adjust opacity, choose its style independently of the main theme, and toggle it with the configurable shortcut. The app can also toggle network effects with a keyboard or mouse bind, keep them active only while held, or turn them off after a timed pulse.
 
+
+## Customization and hotkeys
+
+Switch themes, choose an interface font and text size, or add your own wallpaper. The overlay has its own style and opacity settings, so you can keep it readable with any main theme.
+
+Bind network effects to a keyboard or mouse button. Use a toggle, apply effects only while held, or set a timed pulse. The overlay also has its own configurable shortcut.
+
 <details>
-<summary>Hotkey settings screenshot</summary>
+<summary>More screenshots</summary>
+
+**Packet inspector in Pixel Terminal**
+
+![Packet inspector with captured traffic](pixel-packets.png)
+
+**Dashboard**
+
+![Dashboard showing target, preset, and start controls](dashboard.png)
+
+**Scenarios and comparison**
+
+![Timed scenario phases in the Hacker theme](hacker.png)
+
+![Two scenario runs aligned on the same timeline](comparison-same.png)
+
+**Connections and packet details**
+
+![Connections with a selected TCP loopback flow](connections.png)
+
+![TCP header details and original packet bytes](packets.png)
+
+**Hotkeys**
 
 ![Hotkey, hold mode, and timed auto-off controls](hotkey.png)
 
