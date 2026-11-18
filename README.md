@@ -39,9 +39,7 @@ ZxcLagLab is a Windows network testing tool. It lets you see what happens when a
 
 ### Portable beta
 
-1. On the [release page](https://github.com/triple6xseven/zxc/releases/tag/v2.2.0-preview.34), download the asset ending in `public-beta-win-x64.zip`. The automatic GitHub source archives contain the public README and screenshots.
-2. Right-click the downloaded ZIP and choose **Extract All**. Keep the extracted files together.
-3. Open `zxcLagLab.exe` in the extracted folder and approve the Windows administrator prompt. There is no installer or build step. The .NET 10 Desktop Runtime is included.
+Download and extract the [portable ZIP](https://github.com/triple6xseven/zxc/releases/download/v2.2.0-preview.34/zxcLagLab-2.2.0-preview.34-public-beta-win-x64.zip), then run `zxcLagLab.exe` as administrator. The .NET 10 Desktop Runtime is included.
 
 The beta is unsigned. See the [release page](https://github.com/triple6xseven/zxc/releases/tag/v2.2.0-preview.34) for system requirements, SHA-256, and the SmartScreen notes.
 
