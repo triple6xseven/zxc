@@ -35,13 +35,29 @@ ZxcLagLab is a Windows network testing tool. It lets you see what happens when a
 
 </details>
 
-## Get started
+## Install and launch
 
-1. Download the portable ZIP from the release page, extract the whole archive, and run `zxcLagLab.exe`.
-2. On **Dashboard**, choose **Local test · 127.0.0.1** to test software running on your own PC. For a targeted test, configure a process, IP address, port, or specific connection rule.
-3. Apply a preset, click **Start effects**, and generate traffic from the app under test. Use **Stop all** to end the session, then open the results.
+### Portable beta
 
-The beta is unsigned. Windows SmartScreen may show a warning. The release page provides the SHA-256 checksum for the ZIP. Keep Windows protection enabled. Packet capture and network effects use WinDivert and require its driver to be available.
+1. On the [release page](https://github.com/triple6xseven/zxc/releases/tag/v2.2.0-preview.34), download the asset ending in `public-beta-win-x64.zip`. The automatic GitHub source archives contain the public README and screenshots.
+2. Right-click the downloaded ZIP and choose **Extract All**. Keep the extracted files together.
+3. Open `zxcLagLab.exe` in the extracted folder and approve the Windows administrator prompt. There is no installer or build step. The .NET 10 Desktop Runtime is included.
+
+The beta is unsigned. See the [release page](https://github.com/triple6xseven/zxc/releases/tag/v2.2.0-preview.34) for system requirements, SHA-256, and the SmartScreen notes.
+
+### Build from an existing development checkout
+
+These steps are for developers who already have the project files. The public download does not require the build scripts.
+
+1. In File Explorer, go to the project root. If Windows marked a trusted copy of `build.bat` or `run-latest.bat` as downloaded, right-click that file and open **Properties → General**. If **Unblock** is shown, tick it and click **Apply**.
+2. Run `build.bat` from the project root.
+3. Open `artifacts/<version>/portable/zxcLagLab.exe`, or run `run-latest.bat` to open the newest successful portable build. The packaged ZIP is at `artifacts/zxcLagLab-<version>-portable.zip`.
+
+## Run your first test
+
+1. On **Dashboard**, choose **Local test · 127.0.0.1** to test software running on your own PC. For a targeted test, configure a process, IP address, port, or specific connection rule.
+2. Apply a preset, click **Start effects**, and generate traffic from the app under test.
+3. Use **Stop all** to end the session, then open the results. Packet capture and network effects require the bundled WinDivert driver to be available.
 
 ## Network effects and presets
 
