@@ -1,0 +1,28 @@
+zxc LagLab — Proprietary Public Beta License
+Copyright (c) 2026 Brooks. All rights reserved.
+
+1. Public beta use
+The copyright holder grants anyone a nonexclusive, royalty-free license to
+install and run this build for evaluation and testing during the public beta.
+No invitation, purchase, or donation is required. Donations are voluntary and
+do not change your license rights. This license grants no rights to later builds.
+
+2. Restrictions
+Without written permission from the copyright holder, you may not modify,
+sell, sublicense, or redistribute zxc LagLab. You may share a link to the
+official download. These terms are subject to rights granted by applicable law.
+
+3. Authorized testing
+Use zxc LagLab only on software and networks you own or have permission to test.
+
+4. Third-party components
+Third-party components retain their own licenses. The restrictions above do
+not limit rights granted by those licenses. WinDivert is distributed under
+LGPLv3. Its license and corresponding source are included under licenses/.
+You may replace WinDivert with an interface-compatible version and reverse
+engineer the combined work to debug modifications to WinDivert to the extent
+required by its license. See THIRD-PARTY-NOTICES.txt.
+
+5. Disclaimer
+To the extent permitted by law, this beta is provided AS IS, without warranty.
+Nothing in these terms excludes rights or remedies that cannot lawfully be excluded.
