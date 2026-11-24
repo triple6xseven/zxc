@@ -114,3 +114,7 @@ The beta is free. Donations are optional and help fund development of the full r
 
 - **Bitcoin (BTC)** — `bc1qccr4u54zen9hqla573kxayy5mm58l96gnnkdey`
 - **Ethereum (ETH, Ethereum mainnet)** — `0xF60d8A7e8bfa8402FE9A6f408682E929e18E5B10`
+
+## GitHub Support
+
+[![GitHub Support](https://img.shields.io/badge/GitHub-Support-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/triple6xseven)
